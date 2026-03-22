@@ -412,6 +412,28 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
   * Latent space adapter for converting between LTX-2 and Wan2.1 VAE representations
   * `latent_adapter_final.pt` (447 MB)
 
+### ID-LoRA (Identity-Driven In-Context LoRA)
+
+**ID-LoRA** is a method that enables identity-preserving audio-video generation in a single model. It jointly generates a subject's appearance and voice, letting a text prompt, a reference image, and a short audio clip govern both modalities together. Built on top of LTX-2.3 (22B), it is the **first method to personalize visual appearance and voice within a single generative pass**.
+
+Unlike cascaded pipelines that treat audio and video separately, ID-LoRA operates in a **unified latent space** where a single text prompt can simultaneously dictate the scene's visual content, environmental acoustics, and speaking style—while preserving the subject's vocal identity and visual likeness.
+
+**Key Features:**
+- Text prompt controls the scene and content
+- Reference image preserves the subject's visual likeness
+- Short audio clip preserves the subject's vocal identity
+- Single unified generation pass for both appearance and voice
+
+**Available LoRAs for LTX-2.3:**
+
+| LoRA | Dataset | LoRA Rank | Training Steps | Size |
+|:---|:---|:---:|:---:|:---:|
+| [LTX-2.3-ID-LoRA-TalkVid-3K](https://huggingface.co/AviadDahan/LTX-2.3-ID-LoRA-TalkVid-3K) | TalkVid | 128 | 3,000 | ~1.1 GB |
+| [LTX-2.3-ID-LoRA-CelebVHQ-3K](https://huggingface.co/AviadDahan/LTX-2.3-ID-LoRA-CelebVHQ-3K) | CelebV-HQ | 128 | 3,000 | ~1.1 GB |
+
+**Resources:**
+- [Project Page](https://id-lora.github.io/) | [GitHub](https://github.com/ID-LoRA/ID-LoRA) | [Paper (arXiv: 2603.10256)](https://arxiv.org/abs/2603.10256)
+
 
 <p id="wf" align="center">◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆◇◆</p>
 
