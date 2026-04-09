@@ -447,6 +447,7 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
 * oumoumad
   * [LTX-2 IC-LoRA-Ungrade](https://huggingface.co/oumoumad/LTX-2-19b-IC-LoRA-Ungrade) - Removes color grading and contrast from footage, returning neutral ungraded appearance
   * [LTX-2.3 IC-LoRA-Ungrade](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Ungrade) - LTX-2.3 version of color grading removal IC-LoRA
+  * [IC-LoRA-Outpaint](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint) - Extends video canvas by generating new content in black regions (letterbox areas), filling with temporally consistent content
 * Cseti
   * [IC-LoRA-Cameraman v1](https://huggingface.co/Cseti/LTX2.3-22B_IC-LoRA-Cameraman_v1) - Transfers camera movements (zoom, pan, tilt, orbit) from reference video to generated output
 * 100percentrobot
@@ -455,6 +456,7 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
   * [VBVR-lora-I2V](https://huggingface.co/LiconStudio/Ltx2.3-VBVR-lora-I2V) - Enhances video generation for complex reasoning tasks including multi-object interactions, physical causality, and spatial relationships
 * siraxe
   * [MergeGreen IC-lora](https://huggingface.co/siraxe/MergeGreen_IC-lora_ltx2.3) - Maintains motion at start/end frames, use middle frames with RGB 0,191,0 (75% green fill) in IC-LoRA workflow
+  * [TTM IC-lora](https://huggingface.co/siraxe/TTM_IC-lora_ltx2.3) - Makes cutouts cartoony and adds cartoony characters to video scenes, based on the TTM approach (use with Img To Video bypass + Add Video IC-LoRA Guide node)
 * Lightricks LTX-2
   * [Canny Control](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Canny-Control) - Edge detection control for structural guidance
   * [Depth Control](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Depth-Control) - Depth map conditioning for 3D spatial control
@@ -469,6 +471,7 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
 *   [Clay Stop Motion](https://huggingface.co/oumoumad/clay-stop-motion-lora-ngtvspc)
 *   [Eat](https://huggingface.co/kabachuha/ltx2-eat)
 *   [POP! Inflatable Animation](https://huggingface.co/kabachuha/ltx23-pop) - Comically inflate and pop cartoon/anime characters into confetti and fabric scraps (I2V focused)
+*   [Anime2Half-Real](https://huggingface.co/Alissonerdx/LTX-LoRAs) - Converts anime-style content to a half-realistic aesthetic while maintaining visual consistency with the original anime reference (4500 steps, rank64)
 *   [Outfit Switch](https://huggingface.co/Nebsh/LTX2_Outfitswitch)
 *   [Handheld run](https://huggingface.co/Nebsh/LTX2_Handheld_run)
 *   [Atomic Explosion](https://huggingface.co/Nebsh/LTX2_AtomicExplosion)
