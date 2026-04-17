@@ -437,6 +437,7 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
 ### ▣ Enchancer, special
 
 * [LTX-2.3-IC-LoRA-Colorizer](https://huggingface.co/DoctorDiffusion/LTX-2.3-IC-LoRA-Colorizer) by [DoctorDiffusion](https://huggingface.co/DoctorDiffusion) (331 MB) - Colorize black and white videos
+* [Arnold Style](https://huggingface.co/bionicman69/Arnold_LTX23) by [bionicman69](https://huggingface.co/bionicman69) - Arnold Style LoRA for LTX 2.3. Get to the choppa!
 * [JUST-DUB-IT](https://huggingface.co/justdubit/justdubit)
 * [Best-Face-Swap-Video](https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap-Video)
 * [Image-to-Video Adapter LoRA](https://huggingface.co/MachineDelusions/LTX-2_Image2Video_Adapter_LoRa)
@@ -625,11 +626,13 @@ Unlike cascaded pipelines that treat audio and video separately, ID-LoRA operate
 **Control-reference:**
 
 * [I2V TV2V Transfer Camera Movements IC-Cameraman LoRA](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Control-reference/LTX-2.3_-_IV2V_TV2V_transfer_camera_movements_IC-Cameraman_lora.json)
-* [I2V TV2V Transfer Control Pose IC-union-LoRA](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Control-reference/LTX-2.3_-_IV2V_TV2V_transfer_control_pose_IC-union-lora.json)
+* [I2V TV2V Transfer Body Movements IC-Union-Control-lora DWPose](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Control-reference/LTX-2.3_-_IV2V_TV2V_transfer_body_movements_IC-Union-Control-lora_DWPose.json)
+* [I2V TV2V Transfer Body Movements IC-Union-Control-lora SDPose](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Control-reference/LTX-2.3_-_IV2V_TV2V_transfer_body_movements_IC-Union-Control-lora_SDPose.json)
 
 **Music-Video-Creator:**
 
 * [I2V T2V Music-Video-Creator Multi-Scene Custom Audio](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Music-Video-Creator/LTX-2.3_-_I2V_T2V_Music-Video-Creator_multi-scene_custom_audio.json)
+* [I2V T2V Music-Video-Creator Multi-Scene Custom Audio Low RAM](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Music-Video-Creator/LTX-2.3_-_I2V_T2V_Music-Video-Creator_multi-scene_custom_audio_Low_RAM.json)
 
 **Helper-Workflows:**
 
