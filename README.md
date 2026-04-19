@@ -512,28 +512,28 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
   * [Pose Control](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Pose-Control) - Human pose estimation control for motion guidance
 
 ### ▣ Styles
-*   [LTX-2-19b-LoRA-SPROUT](https://huggingface.co/oumoumad/LTX-2-19b-LoRA-SPROUT)
-*   [Hydraulic press](https://huggingface.co/kabachuha/ltx2-hydraulic-press)
-*   [Cakeify](https://huggingface.co/kabachuha/ltx2-cakeify)
-*   [Big Anime Breasts](https://huggingface.co/kabachuha/ltx2-big-anime-breasts)
-*   [Clay Stop Motion](https://huggingface.co/oumoumad/clay-stop-motion-lora-ngtvspc)
-*   [Eat](https://huggingface.co/kabachuha/ltx2-eat)
-*   [POP! Inflatable Animation](https://huggingface.co/kabachuha/ltx23-pop) - Comically inflate and pop cartoon/anime characters into confetti and fabric scraps (I2V focused)
-*   [Alissonerdx LTX-LoRAs Collection](https://huggingface.co/Alissonerdx/LTX-LoRAs) - Comprehensive collection including:
+* [LTX-2-19b-LoRA-SPROUT](https://huggingface.co/oumoumad/LTX-2-19b-LoRA-SPROUT)
+* [Hydraulic press](https://huggingface.co/kabachuha/ltx2-hydraulic-press)
+* [Cakeify](https://huggingface.co/kabachuha/ltx2-cakeify)
+* [Big Anime Breasts](https://huggingface.co/kabachuha/ltx2-big-anime-breasts)
+* [Clay Stop Motion](https://huggingface.co/oumoumad/clay-stop-motion-lora-ngtvspc)
+* [Eat](https://huggingface.co/kabachuha/ltx2-eat)
+* [POP! Inflatable Animation](https://huggingface.co/kabachuha/ltx23-pop) - Comically inflate and pop cartoon/anime characters into confetti and fabric scraps (I2V focused)
+* [Alissonerdx LTX-LoRAs Collection](https://huggingface.co/Alissonerdx/LTX-LoRAs) - Comprehensive collection including:
   * Anime2Half-Real - Converts anime-style content to half-realistic aesthetic (4500 steps, rank64)
   * Edit-Anything Global - Global editing LoRA variants (6000-9000 steps, rank128)
   * Inpaint Masked R2V/T2V - Region-based inpainting LoRAs for masked video editing
   * Real2Anime/Anime2Real - Style conversion LoRAs (rank64)
-*   [Outfit Switch](https://huggingface.co/Nebsh/LTX2_Outfitswitch)
-*   [Handheld run](https://huggingface.co/Nebsh/LTX2_Handheld_run)
-*   [Atomic Explosion](https://huggingface.co/Nebsh/LTX2_AtomicExplosion)
-*   [Squish](https://huggingface.co/ovi054/LTX-2-19b-Squish-LoRA)
-*   [IC luminance map](https://huggingface.co/oumoumad/ltx-2_IC_LUMIPARTICLES)
-*   [Yoshiaki Kawajiri Retro Anime](https://huggingface.co/tarn59/Yoshiaki_Kawajiri_Retro_Anime_LTX2) - LoRA trained on Yoshiaki Kawajiri's distinctive retro anime art style
-*   [DonaldTrump](https://huggingface.co/Playtime-AI/LTX-2.DonaldTrump)
-*   [WHATUSEE](https://huggingface.co/o-8-o/WHATUSEE_LTX-2-19B_LoRA)
-*   [Squish – One Hand Only](https://huggingface.co/kabachuha/ltx2-squish-one-hand)
-*   [Black Venom](https://huggingface.co/siraxe/black_venom_ltx2)
+* [Outfit Switch](https://huggingface.co/Nebsh/LTX2_Outfitswitch)
+* [Handheld run](https://huggingface.co/Nebsh/LTX2_Handheld_run)
+* [Atomic Explosion](https://huggingface.co/Nebsh/LTX2_AtomicExplosion)
+* [Squish](https://huggingface.co/ovi054/LTX-2-19b-Squish-LoRA)
+* [IC luminance map](https://huggingface.co/oumoumad/ltx-2_IC_LUMIPARTICLES)
+* [Yoshiaki Kawajiri Retro Anime](https://huggingface.co/tarn59/Yoshiaki_Kawajiri_Retro_Anime_LTX2) - LoRA trained on Yoshiaki Kawajiri's distinctive retro anime art style
+* [DonaldTrump](https://huggingface.co/Playtime-AI/LTX-2.DonaldTrump)
+* [WHATUSEE](https://huggingface.co/o-8-o/WHATUSEE_LTX-2-19B_LoRA)
+* [Squish – One Hand Only](https://huggingface.co/kabachuha/ltx2-squish-one-hand)
+* [Black Venom](https://huggingface.co/siraxe/black_venom_ltx2)
 * [HERO CAM](https://huggingface.co/Nebsh/LTX2_Herocam_Lora)
 * [Animatediff V1](https://huggingface.co/Nebsh/LTX2_Animatediff_style)
 * [PUSH TO GLASS](https://huggingface.co/Nebsh/LTX2_Pushtoglass)
