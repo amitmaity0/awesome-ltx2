@@ -68,6 +68,17 @@ Quantized to fp8_e5m2 to support older Triton with older Pytorch on 30 series GP
 | :--- | :--- | :---: | :---: | :---: |
 | **2** | `ltx-2-19b dev` | ![fp8_e5m2](https://img.shields.io/badge/fp8__e5m2-fe7d37?style=flat-square) | 27.1 GB | [![](https://img.shields.io/badge/progmars-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/progmars/ltx-2-19b-dev-fp8_e5m2) |
 
+#### **silveroxides Quantizations (mxfp8)**
+
+**Note:** The mxfp8mixed quantization requires a [custom fork](https://huggingface.co/silveroxides/LTX-2.3-Quants) of ComfyUI-Kitchen with mxfp8 support. Standard ComfyUI installations may not support this quantization format.
+
+| Model | Quant | Size | Download |
+| :--- | :--- | :---: | :--- |
+| `ltx-2.3-22b-dev` | ![int8mixedtensorwise](https://img.shields.io/badge/int8mixedtensorwise-17a2b8?style=flat-square) | 29.2 GB | [![](https://img.shields.io/badge/silveroxides-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/silveroxides/LTX-2.3-Quants/resolve/main/ltx-2.3-22b-dev_int8mixedtensorwise.safetensors) |
+| `ltx-2.3-22b-distilled` | ![int8tensormixed](https://img.shields.io/badge/int8tensormixed-17a2b8?style=flat-square) | 29.1 GB | [![](https://img.shields.io/badge/silveroxides-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/silveroxides/LTX-2.3-Quants/resolve/main/ltx-2.3-22b-distilled-int8tensormixed.safetensors) |
+| `ltx-2.3-22b-distilled` | ![int8mixedtensorwise](https://img.shields.io/badge/int8mixedtensorwise-17a2b8?style=flat-square) | 29.2 GB | [![](https://img.shields.io/badge/silveroxides-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/silveroxides/LTX-2.3-Quants/resolve/main/ltx-2.3-22b-distilled-1.1_int8mixedtensorwise.safetensors) |
+| `ltx-2.3-22b-distilled` | ![mxfp8mixed](https://img.shields.io/badge/mxfp8mixed-20c997?style=flat-square) | 29.7 GB | [![](https://img.shields.io/badge/silveroxides-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/silveroxides/LTX-2.3-Quants/resolve/main/ltx-2.3-22b-distilled-mxfp8mixed.safetensors) |
+
 #### **Distilled LoRA**
 
 | Ver | Rank | Precision | Size | Download |
@@ -170,6 +181,27 @@ These models are optimized for lower memory usage. Note that in ComfyUI, these a
 | ltx-2.3-22b | ![UD-Q4_K_S](https://img.shields.io/badge/UD-Q4__K__S-dfb317?style=flat-square) | 13.7 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-UD-Q4_K_S.gguf) ┊ [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-UD-Q4_K_S.gguf) |
 | ltx-2.3-22b | ![UD-Q5_K_M](https://img.shields.io/badge/UD-Q5__K__M-97c00f?style=flat-square) | 17.1 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-UD-Q5_K_M.gguf) ┊ [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-UD-Q5_K_M.gguf) |
 | ltx-2.3-22b | ![UD-Q5_K_S](https://img.shields.io/badge/UD-Q5__K__S-97c00f?style=flat-square) | 15.8 GB | [dev](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-UD-Q5_K_S.gguf) ┊ [distilled](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled/ltx-2.3-22b-distilled-UD-Q5_K_S.gguf) |
+
+#### [Unsloth LTX-2.3 GGUF - Distilled 1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/tree/main/distilled-1.1)
+
+| Model | Quant | Size | Download |
+| :--- | :--- | :--- | :--- |
+| ltx-2.3-22b | ![BF16](https://img.shields.io/badge/BF16-0077cc?style=flat-square) | 42 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-BF16.gguf) |
+| ltx-2.3-22b | ![F16](https://img.shields.io/badge/F16-0077cc?style=flat-square) | 42 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-F16.gguf) |
+| ltx-2.3-22b | ![Q2_K](https://img.shields.io/badge/Q2__K-e05d44?style=flat-square) | 7.94 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-Q2_K.gguf) |
+| ltx-2.3-22b | ![Q3_K_M](https://img.shields.io/badge/Q3__K__M-fe7d37?style=flat-square) | 10.6 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-Q3_K_M.gguf) |
+| ltx-2.3-22b | ![Q3_K_S](https://img.shields.io/badge/Q3__K__S-fe7d37?style=flat-square) | 9.74 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-Q3_K_S.gguf) |
+| ltx-2.3-22b | ![Q4_K_M](https://img.shields.io/badge/Q4__K__M-dfb317?style=flat-square) | 14.2 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-Q4_K_M.gguf) |
+| ltx-2.3-22b | ![Q4_K_S](https://img.shields.io/badge/Q4__K__S-dfb317?style=flat-square) | 13 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-Q4_K_S.gguf) |
+| ltx-2.3-22b | ![Q5_K_M](https://img.shields.io/badge/Q5__K__M-97c00f?style=flat-square) | 15.9 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-Q5_K_M.gguf) |
+| ltx-2.3-22b | ![Q5_K_S](https://img.shields.io/badge/Q5__K__S-97c00f?style=flat-square) | 15 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-Q5_K_S.gguf) |
+| ltx-2.3-22b | ![Q6_K](https://img.shields.io/badge/Q6__K-0077cc?style=flat-square) | 17.8 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-Q6_K.gguf) |
+| ltx-2.3-22b | ![Q8_0](https://img.shields.io/badge/Q8__0-28a745?style=flat-square) | 22.8 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-Q8_0.gguf) |
+| ltx-2.3-22b | ![UD-Q2_K](https://img.shields.io/badge/UD-Q2__K-e05d44?style=flat-square) | 11 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-UD-Q2_K.gguf) |
+| ltx-2.3-22b | ![UD-Q3_K_M](https://img.shields.io/badge/UD-Q3__K__M-fe7d37?style=flat-square) | 13.5 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-UD-Q3_K_M.gguf) |
+| ltx-2.3-22b | ![UD-Q4_K_M](https://img.shields.io/badge/UD-Q4__K__M-dfb317?style=flat-square) | 16.5 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-UD-Q4_K_M.gguf) |
+| ltx-2.3-22b | ![UD-Q4_K_S](https://img.shields.io/badge/UD-Q4__K__S-dfb317?style=flat-square) | 14.1 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-UD-Q4_K_S.gguf) |
+| ltx-2.3-22b | ![UD-Q5_K_M](https://img.shields.io/badge/UD-Q5__K__M-97c00f?style=flat-square) | 18.2 GB | [distilled-1.1](https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/distilled-1.1/ltx-2.3-22b-distilled-1.1-UD-Q5_K_M.gguf) |
 
 #### [Unsloth LTX-2 GGUF](https://huggingface.co/unsloth/LTX-2-GGUF)
 
@@ -303,13 +335,17 @@ Official and optimized versions for ComfyUI.
 | `gemma_3_12B_it_fp8_scaled` | 13.2 GB | [![](https://img.shields.io/badge/Comfy--Org-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors?download=true) |
 | `gemma_3_12B_it_fp4_mixed` |  9.5 GB | [![](https://img.shields.io/badge/Comfy--Org-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp4_mixed.safetensors?download=true) |
 | `gemma_3_12B_it-int8tensormixed` | 13.2 GB | [![](https://img.shields.io/badge/silveroxides-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/silveroxides/LTX-2.3-Quants/resolve/main/gemma_3_12B_it-int8tensormixed.safetensors) |
+| `gemma_3_12B_it-int8mixedblockwise` | 13.6 GB | [![](https://img.shields.io/badge/silveroxides-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/silveroxides/LTX-2.3-Quants/resolve/main/gemma_3_12B_it_int8mixedblockwise.safetensors) |
+| `gemma_3_12B_it-int8mixedtensorwise` | 14.1 GB | [![](https://img.shields.io/badge/silveroxides-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/silveroxides/LTX-2.3-Quants/resolve/main/gemma_3_12B_it_int8mixedtensorwise.safetensors) |
 | `gemma_3_12B_it-int8tensormixed` | 13.2 GB | [![](https://img.shields.io/badge/Winnougan-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/Winnougan/LTX-2.3-INT8/resolve/main/gemma_3_12B_it-int8tensormixed.safetensors) |
 | `text_projection_fp8` | 1.16 GB | [![](https://img.shields.io/badge/Winnougan-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/Winnougan/LTX-2.3-INT8/resolve/main/ltx-2.3_text_projection_fp8.safetensors) |
 
 * `gemma_3_12B_it_fpmixed`: Experimental quant. Should be better than the fp8 scaled
 * `gemma_3_12B_it_fp4_mixed`: 90% fp4 layers
 
-### ▣ **Gemma-3-12b Abliterated**
+**Note:** The mxfp8mixed quantization requires a custom fork of ComfyUI-Kitchen with mxfp8 support. Standard ComfyUI installations may not support this quantization format.
+
+### **Gemma-3-12b Abliterated**
 
 #### Why Choose Abliterated Encoders?
 Standard Gemma models often incorporate safety alignment that "sanitizes" or weakens specific concepts within prompt embeddings. Even when the model doesn't explicitly refuse a request, this internal filtering can dilute creative intent. For LTX-2 video generation, using a standard encoder often results in:
@@ -483,7 +519,11 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
 *   [Clay Stop Motion](https://huggingface.co/oumoumad/clay-stop-motion-lora-ngtvspc)
 *   [Eat](https://huggingface.co/kabachuha/ltx2-eat)
 *   [POP! Inflatable Animation](https://huggingface.co/kabachuha/ltx23-pop) - Comically inflate and pop cartoon/anime characters into confetti and fabric scraps (I2V focused)
-*   [Anime2Half-Real](https://huggingface.co/Alissonerdx/LTX-LoRAs) - Converts anime-style content to a half-realistic aesthetic while maintaining visual consistency with the original anime reference (4500 steps, rank64)
+*   [Alissonerdx LTX-LoRAs Collection](https://huggingface.co/Alissonerdx/LTX-LoRAs) - Comprehensive collection including:
+  * Anime2Half-Real - Converts anime-style content to half-realistic aesthetic (4500 steps, rank64)
+  * Edit-Anything Global - Global editing LoRA variants (6000-9000 steps, rank128)
+  * Inpaint Masked R2V/T2V - Region-based inpainting LoRAs for masked video editing
+  * Real2Anime/Anime2Real - Style conversion LoRAs (rank64)
 *   [Outfit Switch](https://huggingface.co/Nebsh/LTX2_Outfitswitch)
 *   [Handheld run](https://huggingface.co/Nebsh/LTX2_Handheld_run)
 *   [Atomic Explosion](https://huggingface.co/Nebsh/LTX2_AtomicExplosion)
