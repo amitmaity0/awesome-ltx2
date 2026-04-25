@@ -481,7 +481,6 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
 ### ▣ Enchancer, special
 
 * [LTX-2.3-IC-LoRA-Colorizer](https://huggingface.co/DoctorDiffusion/LTX-2.3-IC-LoRA-Colorizer) by [DoctorDiffusion](https://huggingface.co/DoctorDiffusion) (331 MB) - Colorize black and white videos
-* [Arnold Style](https://huggingface.co/bionicman69/Arnold_LTX23) by [bionicman69](https://huggingface.co/bionicman69) - Arnold Style LoRA for LTX 2.3. Get to the choppa!
 * [JUST-DUB-IT](https://huggingface.co/justdubit/justdubit)
 * [Best-Face-Swap-Video](https://huggingface.co/Alissonerdx/BFS-Best-Face-Swap-Video)
 * [Image-to-Video Adapter LoRA](https://huggingface.co/MachineDelusions/LTX-2_Image2Video_Adapter_LoRa)
@@ -491,10 +490,10 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
   * [Union Control](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Union-Control) - Unified IC-LoRA combining Canny + Depth + Pose control signals for multi-signal video generation conditioning
   * [Motion Track Control](https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Motion-Track-Control) - Guides object motion using sparse point trajectories via colored spline overlays on reference videos
 * vrgamedevgirl84
-  * [ClayMationStyle](https://huggingface.co/vrgamedevgirl84/LTX2.3_ClayMationStyle) - Clay animation style LoRA for LTX-2.3
   * [Enhancer1](https://huggingface.co/vrgamedevgirl84/LTX2.3_Enhancer1) - Video enhancement LoRA
   * [Enhancer2](https://huggingface.co/vrgamedevgirl84/LTX2.3_enhancer2) - Second video enhancement LoRA
 * oumoumad
+  * [IC luminance map](https://huggingface.co/oumoumad/ltx-2_IC_LUMIPARTICLES)
   * [LTX-2 IC-LoRA-Ungrade](https://huggingface.co/oumoumad/LTX-2-19b-IC-LoRA-Ungrade) - Removes color grading and contrast from footage, returning neutral ungraded appearance
   * [LTX-2.3 IC-LoRA-Ungrade](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Ungrade) - LTX-2.3 version of color grading removal IC-LoRA
   * [IC-LoRA-Outpaint](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint) - Extends video canvas by generating new content in black regions (letterbox areas), filling with temporally consistent content
@@ -510,8 +509,7 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
   * [Audio-Reactive LORA](https://huggingface.co/100percentrobot/LTX-2.3-Audio-Reactive-LORA) - Generates audio-reactive videos with motion synchronized to musical elements (beats, rhythm)
 * LiconStudio
   * [VBVR-lora-I2V](https://huggingface.co/LiconStudio/Ltx2.3-VBVR-lora-I2V) - Enhances video generation for complex reasoning tasks including multi-object interactions, physical causality, and spatial relationships
-* lopho
-  * [Gantz O v1.0.0](https://huggingface.co/lopho/ltx2-movie-loras) - Movie-style LoRA (654 MB, 10000 steps)
+
 * o-8-o
   * [Skin-Hair](https://huggingface.co/o-8-o/LTX-2.3-skin-hair) - Refines skin texture and hair rendering, reduces plastic skin artifacts, improves specular highlights (353 MB)
 * Nightfury16
@@ -526,15 +524,26 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
   * [Pose Control](https://huggingface.co/Lightricks/LTX-2-19b-IC-LoRA-Pose-Control) - Human pose estimation control for motion guidance
 
 ### ▣ Styles
-* [LTX-2-19b-LoRA-SPROUT](https://huggingface.co/oumoumad/LTX-2-19b-LoRA-SPROUT)
-* [Hydraulic press](https://huggingface.co/kabachuha/ltx2-hydraulic-press)
-* [Cakeify](https://huggingface.co/kabachuha/ltx2-cakeify)
-* [Big Anime Breasts](https://huggingface.co/kabachuha/ltx2-big-anime-breasts)
-* [Clay Stop Motion](https://huggingface.co/oumoumad/clay-stop-motion-lora-ngtvspc)
-* [Eat](https://huggingface.co/kabachuha/ltx2-eat)
-* [POP! Inflatable Animation](https://huggingface.co/kabachuha/ltx23-pop) - Comically inflate and pop cartoon/anime characters into confetti and fabric scraps (I2V focused)
+* Cseti
+  * [Arcane-Jinx v1](https://huggingface.co/Cseti/LTX2.3-22B_Arcane-Jinx_v1) - Style LoRA inspired by Arcane's Jinx character design
+* lopho
+  * [Gantz O v1.0.0](https://huggingface.co/lopho/ltx2-movie-loras) - Movie-style LoRA (654 MB, 10000 steps)
+* bionicman69
+  * [Arnold Style](https://huggingface.co/bionicman69/Arnold_LTX23) - Arnold Style LoRA for LTX 2.3. Get to the choppa!
+  * [Star Trek TNG Style](https://huggingface.co/bionicman69/StarTrek_TNG_Style_LTX23) - Star Trek: The Next Generation style LoRA for LTX 2.3
+* oumoumad
+  * [LTX-2-19b-LoRA-SPROUT](https://huggingface.co/oumoumad/LTX-2-19b-LoRA-SPROUT)
+  * [Clay Stop Motion](https://huggingface.co/oumoumad/clay-stop-motion-lora-ngtvspc)
+* kabachuha
+  * [Hydraulic press](https://huggingface.co/kabachuha/ltx2-hydraulic-press)
+  * [Cakeify](https://huggingface.co/kabachuha/ltx2-cakeify)
+  * [Big Anime Breasts](https://huggingface.co/kabachuha/ltx2-big-anime-breasts)
+  * [Eat](https://huggingface.co/kabachuha/ltx2-eat)
+  * [Squish – One Hand Only](https://huggingface.co/kabachuha/ltx2-squish-one-hand)
+  * [POP! Inflatable Animation](https://huggingface.co/kabachuha/ltx23-pop) - Comically inflate and pop cartoon/anime characters into confetti and fabric scraps (I2V focused)
 * [CRT Animation Terminal](https://huggingface.co/lovis93/crt-animation-terminal-ltx-2.3-lora) by [lovis93](https://huggingface.co/lovis93) - Real late-80s/early-90s CRT monitor look with scanlines, phosphor glow, chromatic aberration, and dithering. Trigger word: `crtanim,`. Available in 4000 and 10000 training steps variants
 * vrgamedevgirl84 Style LoRAs
+  * [ClayMationStyle](https://huggingface.co/vrgamedevgirl84/LTX2.3_ClayMationStyle) - Clay animation style LoRA for LTX-2.3
   * [Wild West Style](https://huggingface.co/vrgamedevgirl84/LTX_2.3_Wild_West_Style_LoRa)
   * [Paper Cut Out Style](https://huggingface.co/vrgamedevgirl84/LTX_2.3_Paper_Cut_Out_Style_LoRa)
   * [Post Apocalyptic Style](https://huggingface.co/vrgamedevgirl84/LTX_2.3_Post_Apocalyptic_Style_LoRa)
@@ -554,22 +563,22 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
   * Edit-Anything Global - Global editing LoRA variants (6000-9000 steps, rank128)
   * Inpaint Masked R2V/T2V - Region-based inpainting LoRAs for masked video editing
   * Real2Anime/Anime2Real - Style conversion LoRAs (rank64)
-* [Outfit Switch](https://huggingface.co/Nebsh/LTX2_Outfitswitch)
-* [Handheld run](https://huggingface.co/Nebsh/LTX2_Handheld_run)
-* [Atomic Explosion](https://huggingface.co/Nebsh/LTX2_AtomicExplosion)
+* Nebsh
+  * [Outfit Switch](https://huggingface.co/Nebsh/LTX2_Outfitswitch)
+  * [Handheld run](https://huggingface.co/Nebsh/LTX2_Handheld_run)
+  * [Atomic Explosion](https://huggingface.co/Nebsh/LTX2_AtomicExplosion)
+  * [HERO CAM](https://huggingface.co/Nebsh/LTX2_Herocam_Lora)
+  * [Animatediff V1](https://huggingface.co/Nebsh/LTX2_Animatediff_style)
+  * [PUSH TO GLASS](https://huggingface.co/Nebsh/LTX2_Pushtoglass)
+  * [Object POV](https://huggingface.co/Nebsh/POVObject)
 * [Squish](https://huggingface.co/ovi054/LTX-2-19b-Squish-LoRA)
-* [IC luminance map](https://huggingface.co/oumoumad/ltx-2_IC_LUMIPARTICLES)
 * [Yoshiaki Kawajiri Retro Anime](https://huggingface.co/tarn59/Yoshiaki_Kawajiri_Retro_Anime_LTX2) - LoRA trained on Yoshiaki Kawajiri's distinctive retro anime art style
 * [DonaldTrump](https://huggingface.co/Playtime-AI/LTX-2.DonaldTrump)
-* [WHATUSEE](https://huggingface.co/o-8-o/WHATUSEE_LTX-2-19B_LoRA)
-* [Squish – One Hand Only](https://huggingface.co/kabachuha/ltx2-squish-one-hand)
+* o-8-o
+  * [Group Photo](https://huggingface.co/o-8-o/GroupPhoto-LoRA-LTX-2-19b)
+  * [EarthZoomOut](https://huggingface.co/o-8-o/EarthZoomOut-LoRA-LTX-2-19b)
+  * [WHATUSEE](https://huggingface.co/o-8-o/WHATUSEE_LTX-2-19B_LoRA)
 * [Black Venom](https://huggingface.co/siraxe/black_venom_ltx2)
-* [HERO CAM](https://huggingface.co/Nebsh/LTX2_Herocam_Lora)
-* [Animatediff V1](https://huggingface.co/Nebsh/LTX2_Animatediff_style)
-* [PUSH TO GLASS](https://huggingface.co/Nebsh/LTX2_Pushtoglass)
-* [Object POV](https://huggingface.co/Nebsh/POVObject)
-* [Group Photo](https://huggingface.co/o-8-o/GroupPhoto-LoRA-LTX-2-19b)
-* [EarthZoomOut](https://huggingface.co/o-8-o/EarthZoomOut-LoRA-LTX-2-19b)
 * Lightricks
   * [`Camera Control: dolly-in`](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-In/blob/main/ltx-2-19b-lora-camera-control-dolly-in.safetensors)
   * [`Camera Control: dolly-left`](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-Left/blob/main/ltx-2-19b-lora-camera-control-dolly-left.safetensors)
@@ -670,6 +679,7 @@ Unlike cascaded pipelines that treat audio and video separately, ID-LoRA operate
 **Movie-Maker:**
 * [Movie Maker Workflows](https://huggingface.co/RuneXX/LTX-2.3-Workflows/tree/main/Movie-Maker)
 
+
 **Custom-Audio:**
 
 * [I2V T2V Basic ID-Lora Reference Audio](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Custom-Audio/LTX-2.3_-_I2V_T2V_Basic_ID-Lora_reference_audio.json) 
@@ -677,7 +687,7 @@ Unlike cascaded pipelines that treat audio and video separately, ID-LoRA operate
 * [I2V T2V Basic Custom Audio](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Custom-Audio/LTX-2.3_-_I2V_T2V_Basic_Custom_Audio.json) 
 
 **First-Last-Frame:**
-
+* [First-Last-Frame Workflows](https://huggingface.co/RuneXX/LTX-2.3-Workflows/tree/main/First-Last-Frame)
 * [FLF2V First Last Frame](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/First-Last-Frame/LTX-2.3_-_FLF2V_First-Last-Frame.json)
 * [FLF2V First Last Frame Custom Audio](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/First-Last-Frame/LTX-2.3_-_FLF2V_First-Last-Frame_custom_audio.json)
 * [FLF2V First Last Frame Transition LoRA](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/First-Last-Frame/LTX-2.3_-_FLF2V_First-Last-Frame_transition_lora.json)
