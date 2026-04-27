@@ -517,9 +517,9 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
   * [Audio-Reactive LORA](https://huggingface.co/100percentrobot/LTX-2.3-Audio-Reactive-LORA) - Generates audio-reactive videos with motion synchronized to musical elements (beats, rhythm)
 * LiconStudio
   * [VBVR-lora-I2V](https://huggingface.co/LiconStudio/Ltx2.3-VBVR-lora-I2V) - Enhances video generation for complex reasoning tasks including multi-object interactions, physical causality, and spatial relationships
-
-* o-8-o
-  * [Skin-Hair](https://huggingface.co/o-8-o/LTX-2.3-skin-hair) - Refines skin texture and hair rendering, reduces plastic skin artifacts, improves specular highlights (353 MB)
+* TheBurgstall
+  * [LTX-2.3-Skin-Hair](https://huggingface.co/TheBurgstall/LTX-2.3-skin-hair) - Refines skin texture and hair rendering, reduces plastic skin artifacts, improves specular highlights 
+  * [VR-360-Outpaint IC-LoRA](https://huggingface.co/TheBurgstall/VR-360-Outpaint-LTX2.3-IC-LoRA) - Outpaints standard widescreen footage into a full 360° equirectangular projection for immersive/VR viewing.
 * Nightfury16
   * [Staging IC-lora 512](https://huggingface.co/Nightfury16/ltx2.3-staging-ic-lora-512) - Staging IC-LoRA for video composition control (512 latent scale)
 * siraxe
@@ -588,10 +588,10 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
 * TheBurgstall
   * [LTX-2.3-Body-Positivity](https://huggingface.co/TheBurgstall/ltx-2.3-bodypositivity-lora)
   * [LTX-2.3-Googly-Eyes](https://huggingface.co/TheBurgstall/ltx-2.3-googlyeyes-lora)
-* o-8-o
-  * [Group Photo](https://huggingface.co/o-8-o/GroupPhoto-LoRA-LTX-2-19b)
-  * [EarthZoomOut](https://huggingface.co/o-8-o/EarthZoomOut-LoRA-LTX-2-19b)
-  * [WHATUSEE](https://huggingface.co/o-8-o/WHATUSEE_LTX-2-19B_LoRA)
+* TheBurgstall (LTX-2)
+  * [EarthZoomOut](https://huggingface.co/TheBurgstall/EarthZoomOut-LoRA-LTX-2-19b)
+  * [GroupPhoto](https://huggingface.co/TheBurgstall/GroupPhoto-LoRA-LTX-2-19b)
+  * [WHATUSEE](https://huggingface.co/TheBurgstall/WHATUSEE_LTX-2-19B_LoRA)
 * [Black Venom](https://huggingface.co/siraxe/black_venom_ltx2)
 * Lightricks
   * [`Camera Control: dolly-in`](https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Dolly-In/blob/main/ltx-2-19b-lora-camera-control-dolly-in.safetensors)
