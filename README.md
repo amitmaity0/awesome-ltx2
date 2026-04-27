@@ -4,6 +4,14 @@ A curated list of models, text encoders, and tools for the LTX-2 video generatio
 
 ![ltx-logo](https://github.com/user-attachments/assets/ee73cbc3-648b-47fa-9346-c4299919a060)
 
+<div align="center">
+
+[![Stargazers][stars-shield]][stars-url]
+[![Telegram][telegram-shield]][telegram-url]
+[![X][x-shield]][x-url]
+
+</div>
+
 ## Intro
 
 * [LTX-2: A New Chapter in Generative AI](https://website.ltx.video/blog/introducing-ltx-2)
@@ -574,6 +582,12 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
 * [Squish](https://huggingface.co/ovi054/LTX-2-19b-Squish-LoRA)
 * [Yoshiaki Kawajiri Retro Anime](https://huggingface.co/tarn59/Yoshiaki_Kawajiri_Retro_Anime_LTX2) - LoRA trained on Yoshiaki Kawajiri's distinctive retro anime art style
 * [DonaldTrump](https://huggingface.co/Playtime-AI/LTX-2.DonaldTrump)
+* Playtime-AI
+  * [LTX-2.3-Wednesday_Addams](https://huggingface.co/Playtime-AI/LTX-2.3-Wednesday_Addams)
+  * [LTX-2.3-Kermit_the_Frog](https://huggingface.co/Playtime-AI/LTX-2.3-Kermit_the_Frog)
+* TheBurgstall
+  * [LTX-2.3-Body-Positivity](https://huggingface.co/TheBurgstall/ltx-2.3-bodypositivity-lora)
+  * [LTX-2.3-Googly-Eyes](https://huggingface.co/TheBurgstall/ltx-2.3-googlyeyes-lora)
 * o-8-o
   * [Group Photo](https://huggingface.co/o-8-o/GroupPhoto-LoRA-LTX-2-19b)
   * [EarthZoomOut](https://huggingface.co/o-8-o/EarthZoomOut-LoRA-LTX-2-19b)
@@ -661,6 +675,13 @@ Unlike cascaded pipelines that treat audio and video separately, ID-LoRA operate
 * [T2V Basic](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/LTX-2.3_-_T2V_Basic.json)
 * [T2V Simple Single Pass](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/LTX-2.3_-_T2V_Simple_single_pass.json)
 
+**Movie-Maker:**
+
+* [I2V Short-Story PromptRelay-Timeline multi-image multi-sequence](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Movie-Maker/LTX-2.3_-_I2V_Short-Story_PromptRelay-Timeline_multi-image_multi-sequence.json)
+* [I2V Short-Story PromptRelay multi-image multi-sequence](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Movie-Maker/LTX-2.3_-_I2V_Short-Story_PromptRelay_multi-image_multi-sequence.json)
+* [I2V T2V Short-Story PromptRelay-Timeline multi-sequence](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Movie-Maker/LTX-2.3_-_I2V_T2V_Short-Story_PromptRelay-Timeline_multi-sequence.json)
+* [I2V T2V Short-Story PromptRelay multi-sequence](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Movie-Maker/LTX-2.3_-_I2V_T2V_Short-Story_PromptRelay_multi-sequence.json)
+
 **Talking-Avatar-TTS:**
 
 * [I2V T2V Talking Avatar (Qwen-TTS)](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Talking-Avatar-TTS/LTX-2.3_-_I2V_T2V_Talking_Avatar_(voice_clone_with_Qwen-TTS).json)
@@ -675,10 +696,6 @@ Unlike cascaded pipelines that treat audio and video separately, ID-LoRA operate
 * [V2V Expand Any Video IC-Lora-Outpaint](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Video-2-Video/LTX-2.3_-_V2V_Expand_Any_Video_IC-Lora-Outpaint.json)
 * [V2V Foley Add Sound To Any Video](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Video-2-Video/LTX-2.3_-_V2V_Foley_Add_Sound_To_Any_Video.json)
 * [V2V ReTake recreate any section of any video](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Video-2-Video/LTX-2.3_-_V2V_ReTake_recreate_any_section_of_any_video.json)
-
-**Movie-Maker:**
-* [Movie Maker Workflows](https://huggingface.co/RuneXX/LTX-2.3-Workflows/tree/main/Movie-Maker)
-
 
 **Custom-Audio:**
 
@@ -753,3 +770,11 @@ Unlike cascaded pipelines that treat audio and video separately, ID-LoRA operate
 * [V2V Just Dub It (experimental)(translate speech auto dubbing)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/older_comfy_pre_feb2026/LTX-2%20-%20V2V%20Just%20Dub%20It%20(experimental)(translate%20speech%20auto%20dubbing).json)
 * [V2V Just Dub It (with voice clone)(auto dubbing translation)(experimental)](https://huggingface.co/RuneXX/LTX-2-Workflows/resolve/main/older_comfy_pre_feb2026/LTX-2%20-%20V2V%20Just%20Dub%20It%20(with%20voice%20clone)(auto%20dubbing%20translation)(experimental).json)
 </details>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[stars-shield]: https://img.shields.io/github/stars/wildminder/awesome-ltx2.svg?style=for-the-badge
+[stars-url]: https://github.com/wildminder/awesome-ltx2/stargazers
+[telegram-shield]: https://img.shields.io/badge/Telegram-TokenDiff-26A5E4?style=for-the-badge&logo=telegram&logoColor=white
+[telegram-url]: https://t.me/TokenDiff
+[x-shield]: https://img.shields.io/badge/X-@wildmindai-000000?style=for-the-badge&logo=x&logoColor=white
+[x-url]: https://x.com/wildmindai
