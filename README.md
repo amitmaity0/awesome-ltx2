@@ -4,6 +4,7 @@ A curated list of models, text encoders, and tools for the LTX-2 video generatio
 
 ![ltx-logo](https://github.com/user-attachments/assets/ee73cbc3-648b-47fa-9346-c4299919a060)
 
+
 <div align="center">
 
 [![Stargazers][stars-shield]][stars-url]
@@ -507,6 +508,8 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
   * [IC-LoRA-Outpaint](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Outpaint) - Extends video canvas by generating new content in black regions (letterbox areas), filling with temporally consistent content
   * [IC-LoRA-ReFocus](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-ReFocus) - Removes lens blur and restores focus to out-of-focus footage (lens blur only)
   * [IC-LoRA-Uncompress](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Uncompress) - Removes MP4 compression artifacts (blocking, banding, mosquito noise) and restores clean video
+  * [IC-LoRA-MotionDeblur](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-MotionDeblur) - Removes motion blur from footage
+  * [IC-LoRA-Deinterlace](https://huggingface.co/oumoumad/LTX-2.3-22b-IC-LoRA-Deinterlace) - Removes interlacing artifacts from video
   * [FXIC LTX2 IC-LoRA](https://huggingface.co/oumoumad/fxic-ltx2-iclora) - Flux-inspired IC-LoRA for LTX video transformation with multiple optimizer variants (adamw, prodigy, masked) at various training steps
 * Kijai
   * [LTX2-IC-LoRAs](https://huggingface.co/Kijai/LTX2-IC-LoRAs) - IC-LoRA trained with the realisdance set
