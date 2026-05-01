@@ -443,6 +443,7 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
 | :--- | :--- | :---: | :---: | :---: |
 | **2.3** | `ltx-2.3-22b dev` | ![bf16](https://img.shields.io/badge/bf16-0077cc?style=flat-square) | 42 GB | [![](https://img.shields.io/badge/Kijai-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/diffusion_models/ltx-2.3-22b-dev_transformer_only_bf16.safetensors) |
 | **2.3** | `ltx-2.3-22b dev`  | ![fp8](https://img.shields.io/badge/fp8-28a745?style=flat-square) | 23.5 GB | [![](https://img.shields.io/badge/Kijai-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/diffusion_models/ltx-2.3-22b-dev_transformer_only_fp8_scaled.safetensors) |
+| **2.3** | `ltx-2.3-22b dev`  | ![mxfp8_block32](https://img.shields.io/badge/mxfp8__block32-20c997?style=flat-square) | 24.1 GB | [![](https://img.shields.io/badge/Kijai-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/diffusion_models/ltx-2.3-22b-dev_transformer_only_mxfp8_block32.safetensors) |
 | **2.3** | `ltx-2.3-22b dev`  | ![fp8_input_scaled](https://img.shields.io/badge/fp8__input__scaled-fe7d37?style=flat-square) | 25 GB | [![](https://img.shields.io/badge/Kijai-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/diffusion_models/ltx-2-3-22b-dev_transformer_only_fp8_input_scaled.safetensors) |
 | **2.3** | `ltx-2.3-22b distilled` | ![bf16](https://img.shields.io/badge/bf16-0077cc?style=flat-square) | 42 GB | [![](https://img.shields.io/badge/Kijai-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/diffusion_models/ltx-2.3-22b-distilled_transformer_only_bf16.safetensors) |
 | **2.3** | `ltx-2.3-22b distilled` | ![fp8_input_scaled](https://img.shields.io/badge/fp8__input__scaled-fe7d37?style=flat-square) | 23.5 GB | [![](https://img.shields.io/badge/Kijai-lightgrey?style=flat-square&logo=huggingface&logoColor=white)](https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/diffusion_models/ltx-2.3-22b-distilled_transformer_only_fp8_input_scaled.safetensors) |
@@ -520,6 +521,8 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
   * [Audio-Reactive LORA](https://huggingface.co/100percentrobot/LTX-2.3-Audio-Reactive-LORA) - Generates audio-reactive videos with motion synchronized to musical elements (beats, rhythm)
 * LiconStudio
   * [VBVR-lora-I2V](https://huggingface.co/LiconStudio/Ltx2.3-VBVR-lora-I2V) - Enhances video generation for complex reasoning tasks including multi-object interactions, physical causality, and spatial relationships
+  * [VBVR-lora-I2V Special](https://huggingface.co/LiconStudio/Ltx2.3-VBVR-lora-I2V)
+
 * TheBurgstall
   * [LTX-2.3-Skin-Hair](https://huggingface.co/TheBurgstall/LTX-2.3-skin-hair) - Refines skin texture and hair rendering, reduces plastic skin artifacts, improves specular highlights 
   * [VR-360-Outpaint IC-LoRA](https://huggingface.co/TheBurgstall/VR-360-Outpaint-LTX2.3-IC-LoRA) - Outpaints standard widescreen footage into a full 360° equirectangular projection for immersive/VR viewing.
@@ -588,6 +591,7 @@ Separated LTX2 checkpoint by [Kijai](https://huggingface.co/Kijai/LTXV2_comfy) a
 * Playtime-AI
   * [LTX-2.3-Wednesday_Addams](https://huggingface.co/Playtime-AI/LTX-2.3-Wednesday_Addams)
   * [LTX-2.3-Kermit_the_Frog](https://huggingface.co/Playtime-AI/LTX-2.3-Kermit_the_Frog)
+  * [LTX-2.3-Jenna_Coleman](https://huggingface.co/Playtime-AI/LTX-2.3-Jenna_Coleman)
 * TheBurgstall
   * [LTX-2.3-Body-Positivity](https://huggingface.co/TheBurgstall/ltx-2.3-bodypositivity-lora)
   * [LTX-2.3-Googly-Eyes](https://huggingface.co/TheBurgstall/ltx-2.3-googlyeyes-lora)
@@ -699,6 +703,8 @@ Unlike cascaded pipelines that treat audio and video separately, ID-LoRA operate
 * [V2V Expand Any Video IC-Lora-Outpaint](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Video-2-Video/LTX-2.3_-_V2V_Expand_Any_Video_IC-Lora-Outpaint.json)
 * [V2V Foley Add Sound To Any Video](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Video-2-Video/LTX-2.3_-_V2V_Foley_Add_Sound_To_Any_Video.json)
 * [V2V ReTake recreate any section of any video](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Video-2-Video/LTX-2.3_-_V2V_ReTake_recreate_any_section_of_any_video.json)
+**Others:**
+* [I2V T2V Basic custom audio with Gemma-API example](https://huggingface.co/RuneXX/LTX-2.3-Workflows/resolve/main/Others/LTX-2.3_-_I2V_T2V_Basic_custom_audio_with_Gemma-API_example.json)
 
 **Custom-Audio:**
 
