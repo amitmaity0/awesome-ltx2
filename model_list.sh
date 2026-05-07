@@ -1,5 +1,5 @@
-cd /workspace/*/ComfyUI/models/diffusion_models
-wget https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-dev.safetensors
+#cd /workspace/*/ComfyUI/models/diffusion_models
+#wget https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-dev.safetensors
 
 cd /workspace/*/ComfyUI/models/latent_upscale_models
 
@@ -10,7 +10,7 @@ cd /workspace/*/ComfyUI/models/text_encoders
 
 wget https://huggingface.co/Winnougan/LTX-2.3-INT8/resolve/main/ltx-2.3_text_projection_fp8.safetensors
 
-wget https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors?download=true
+wget https://huggingface.co/Comfy-Org/ltx-2/resolve/main/split_files/text_encoders/gemma_3_12B_it_fp8_scaled.safetensors
 
 cd /workspace/*/ComfyUI/models/vae
 
