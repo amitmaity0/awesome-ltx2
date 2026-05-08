@@ -4,7 +4,7 @@
 cd /workspace/*/ComfyUI/models/latent_upscale_models
 
 
-wget https://huggingface.co/Lightricks/LTX-2.3/blob/main/ltx-2.3-spatial-upscaler-x2-1.1.safetensors
+wget https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-spatial-upscaler-x2-1.1.safetensors
 
 cd /workspace/*/ComfyUI/models/text_encoders
 
