@@ -30,9 +30,14 @@ wget https://huggingface.co/Lightricks/LTX-2.3-22b-IC-LoRA-Motion-Track-Control/
 
 wget https://huggingface.co/LiconStudio/Ltx2.3-VBVR-lora-I2V/resolve/main/Ltx2.3-Licon-VBVR-I2V-390K-R32.safetensors
 
-wget https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Static/blob/main/ltx-2-19b-lora-camera-control-static.safetensors
+wget https://huggingface.co/Lightricks/LTX-2-19b-LoRA-Camera-Control-Static/resolve/main/ltx-2-19b-lora-camera-control-static.safetensors
 
 #wget https://huggingface.co/Comfy-Org/ltx-2.3/resolve/main/split_files/loras/ltx-2.3-id-lora-talkvid-3k.safetensors
 
 #wget https://huggingface.co/Comfy-Org/ltx-2.3/resolve/main/split_files/loras/ltx-2.3-id-lora-celebvhq-3k.safetensors
+
+cd /workspace/*/ComfyUI/custom_nodes
+git clone https://github.com/kijai/ComfyUI-PromptRelay.git
+source /workspace/*/ComfyUI/.venv-cu128/bin/activate
+pip install -r ComfyUI-PromptRelay/requirements.txt
 
