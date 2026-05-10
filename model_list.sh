@@ -1,5 +1,6 @@
-#cd /workspace/*/ComfyUI/models/diffusion_models
+cd /workspace/*/ComfyUI/models/diffusion_models
 #wget https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-dev.safetensors
+wget https://huggingface.co/Lightricks/LTX-2.3-fp8/resolve/main/ltx-2.3-22b-dev-fp8.safetensors
 
 cd /workspace/*/ComfyUI/models/latent_upscale_models
 
@@ -20,7 +21,7 @@ wget https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/vae/LTX23_audio_vae_
 cd /workspace/*/ComfyUI/models/loras
 
 
-wget https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors
+#wget https://huggingface.co/Kijai/LTX2.3_comfy/resolve/main/loras/ltx-2.3-22b-distilled-1.1_lora-dynamic_fro09_avg_rank_111_bf16.safetensors
 
 wget https://huggingface.co/Lightricks/LTX-2.3/resolve/main/ltx-2.3-22b-distilled-lora-384-1.1.safetensors
 
@@ -40,4 +41,8 @@ cd /workspace/*/ComfyUI/custom_nodes
 git clone https://github.com/kijai/ComfyUI-PromptRelay.git
 source /workspace/*/ComfyUI/.venv-cu128/bin/activate
 pip install -r ComfyUI-PromptRelay/requirements.txt
+pip install sageattention
+pip install triton
+
+# python main.py --listen 0.0.0.0 --port 8188 --enable-cors-header --use-sage-attention
 
